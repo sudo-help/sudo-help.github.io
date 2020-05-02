@@ -1,0 +1,114 @@
+#cornerLogo {
+    width: 40px;
+    position: fixed;
+    margin-left: 29px;
+    margin-top: 10px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    right: 0;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: black;
+    margin-top: 90px;
+    margin-left: 40px;
+    position: fixed;
+    background-color: black;
+}
+
+.line {
+    border-left: 2px solid black;
+    position: fixed;
+    margin-top: 110px;
+    margin-left: 44px;
+    height: auto;
+    min-height: 1000px;
+    background-color: black;
+    color: black;
+}
+
+#nameTitle {
+    font-family: 'Roboto', serif;
+    position: fixed;
+    margin-left: 80px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+#topBar {
+    width: 500px;
+    height: 40px;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    left: 0;
+    top: 10px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    border-top: 1px solid #BABABA;
+}
+#topBar li {
+    display: inline;
+}
+#topBar a {
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+#topBar li a:hover {
+    color: mediumslateblue;
+    border-bottom: 2px solid mediumslateblue;
+    padding-bottom:  3px;
+}
+#topBar ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: #F1F1F1;
+}
+::-webkit-scrollbar-thumb{
+    background: #916DFF;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #7041FE;
+}
+
+.lavender {
+    color: #916DFF;
+}
+.slateBlue {
+    color: slateblue;
+}
+.mediumSlateBlue {
+    color: mediumslateblue;
+}
+.purple {
+    color: #7041FE;
+}
