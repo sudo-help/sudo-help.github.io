@@ -1,10 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat|Rubik|Roboto|Shadows+Into+Light' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/page_layout.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/gallery.css">
 </head>
 <body>
+    <!-- top header, consistent with every page -->
+    <!-- corner icon -->
+    <img src="../images/gen_boutons.png" alt="Viktor Zhuang" id="cornerLogo">
+    <div id="nameTitle">VIKTOR <br>ZHUANG</div>
+    <!-- circle divider -->
+    <div class="circle"></div>
+    <div class="line"></div>
+    <!-- page navigation -->
+    <div id="topBar">
+        <ul>
+            <li id="aboutMe">
+                <a href="home.html">
+                    <img src="../images/about.png" alt="About Me" class="icon">
+                    about me
+                </a>
+            </li>
 
+            <li id="projects">
+                <a href="projects.html">
+                    <img src="../images/project.png" alt="Projects" class="icon">
+                    projects
+                </a>
+            </li>
+
+            <li id="gallery">
+                <a href="gallery.html">
+                    <img src="../images/galleryColor.png" alt="Gallery" class="icon">
+                    gallery
+                </a>
+            </li>
+
+            <li id="contactMe">
+                <a href="contact.html">
+                    <img src="../images/contact.png" alt="Contact Me" class="icon">
+                    contact me
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <!-- photo gallery -->
+
+    <div class="gallery">
+        <div class="column">
+            <img src="../images/app1.png" alt="App Overview">
+            <img src="../images/portfolio-home-1.png" alt="Portfolio Design">
+            <img src="../images/dashVer2.png" alt="Dashboard Design">
+            <img src="../images/report.png" alt="Usability Report Design">
+            <img src="../images/report2.png" alt="Usability Report">
+
+
+        </div>
+
+        <div class="column">
+            <img src="../images/dashVer3.png" alt="Dashboard Design">
+            <img src="../images/plant_info.png" alt="Info Component">
+            <img src="../images/stats.png" alt="Stat Input Design">
+
+
+        </div>
+
+        <div class="column">
+            <img src="../images/calendar.png" alt="Calender Component">
+            <img src="../images/report4.png" alt="Usability Report">
+            <img src="../images/dashVer1.png" alt="Dashboard Design">
+            <img src="../images/report3.png" alt="Usability Report">
+        </div>
+    </div>
+
+
+    <div class="scrollbar" id="purpleStyle"></div>
+
+    <div class="footer"> Welcome to my site</div>
 </body>
 </html>
